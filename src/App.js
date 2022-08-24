@@ -3,6 +3,7 @@ import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 import HomePage from './pages/Home';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import DetailsJoke from './pages/DetailsJoke/DetailsJoke';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<HomePage />} />
+          <Route path="/detail-joke" element={<DetailsJoke />} />
         </Routes>
       </BrowserRouter>
       <Footer/>

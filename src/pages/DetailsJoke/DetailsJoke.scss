@@ -1,0 +1,26 @@
+
+@import '../../core/styles/variables';
+@import '../../core/styles/mixins';
+
+.detail-joke-section{
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    gap: 30px;
+}
+
+.return-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: var(--color-black);
+    border-radius: 50%;
+    cursor: pointer;
+}
