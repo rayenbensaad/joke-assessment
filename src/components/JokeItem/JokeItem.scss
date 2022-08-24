@@ -1,0 +1,53 @@
+
+    @import '../../core/styles/variables';
+    @import '../../core/styles/mixins';
+    
+    .joke-item {
+        position: relative;
+        min-height: 260px;
+        background-color: var(--color-white-secondary);
+        padding: var(--layout-spacing-2);
+        border: 1px solid var(--color-white-three);
+        border-radius: var(--layout-spacing-0-25);
+        cursor: pointer;
+
+        &:hover {
+            box-shadow: 0 1px 7px var(--color-white-three);
+        }
+
+        .joke-title {
+            @include titleMedium(var(--color-black));
+
+            display: flex;
+            font-weight: var(--font-weight-bold);
+            margin-bottom: var(--layout-spacing-0-5);
+
+            .green-light-icon {
+                height: var(--layout-spacing-2);
+                margin-right: var(--layout-spacing-1);
+            }
+        }
+
+        .joke-text {
+            @include sectionText(var(--color-black-secondary));
+            margin-top: var(--layout-spacing-1-5);
+            margin-bottom: var(--layout-spacing-4);
+            line-height: 20px;
+            text-align: left;
+        }
+        .joke-button {
+            position: absolute;
+            bottom: 0;
+            right: var(--layout-spacing-2);
+            @include sectionText(var(--color-beige));
+            font-weight: var(--font-weight-medium);
+            margin-top: var(--layout-spacing-1);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+    
+            .arrow-icon {
+                margin-left: var(--layout-spacing-1);
+            }
+        }
+    }
