@@ -1,0 +1,19 @@
+
+// text mixins
+@mixin titleLarge($titleColor: var(--color-beige)) {
+    color: $titleColor;
+    font-size: var(--font-size-3x-large);
+    font-weight: var(--font-weight-medium);
+}
+
+@mixin titleMedium($color: var(--color-black)) {
+    color: $color;
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-medium);
+}
+
+@mixin sectionText($color: var(--color-black)) {
+    color: $color;
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-normal);
+}

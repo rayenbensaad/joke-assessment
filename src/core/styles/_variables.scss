@@ -1,0 +1,64 @@
+* {
+    // colors
+    --color-white: #f9f9f9;
+    --color-white-secondary: #ffffff;
+    --color-white-three: #ecebe9;
+    --color-black: #303030;
+    --color-black-secondary: #5e5e5e;
+    --color-beige: #cfb995;
+    --color-gray: #b2b2b2;
+    --color-red: #ff5b5b;
+    --color-weird-green: #57e690;
+    --color-pastel-orange: #ff915b;
+    --color-light-blue: #57DBE6;
+    --color-beige-secondary: #d0ba93;
+    --color-pale-orange: #ffbe5b;
+    --color-kiwi-green: #8FE360;
+    --color-light-gold: #ffdf5b;
+
+    // spacing - layouts (1 * 8px)
+    --layout-spacing-0-25: 2px;
+    --layout-spacing-0-5: 4px;
+    --layout-spacing-0-75: 6px;
+    --layout-spacing-1: 8px;
+    --layout-spacing-1-25: 10px;
+    --layout-spacing-1-5: 12px;
+    --layout-spacing-2: 16px;
+    --layout-spacing-2-5: 20px;
+    --layout-spacing-3: 24px;
+    --layout-spacing-3-5: 28px;
+    --layout-spacing-4: 32px;
+    --layout-spacing-4-5: 36px;
+    --layout-spacing-5: 40px;
+    --layout-spacing-5-5: 44px;
+    --layout-spacing-6: 48px;
+    --layout-spacing-7: 56px;
+    --layout-spacing-8: 64px;
+    --layout-spacing-9: 72px;
+    --layout-spacing-10: 80px;
+    --layout-spacing-11: 88px;
+    --layout-spacing-12: 96px;
+    --layout-spacing-13: 104px;
+    --layout-spacing-14: 112px;
+    --layout-spacing-15: 120px;
+
+    // fonts
+    --font-size-6x-large: 96px;
+    --font-size-4x-large: 64px;
+    --font-size-3x-large: 48px;
+    --font-size-2x-large: 32px;
+    --font-size-x-large: 24px;
+    --font-size-large: 18px;
+    --font-size-default: 15px;
+    --font-size-small: 14px;
+    --font-size-x-small: 12px;
+    --font-size-2x-small: 10px;
+    --font-size-3x-small: 8px;
+
+    // font weight
+    --font-weight-bold: 700;
+    --font-weight-semibold: 600;
+    --font-weight-medium: 500;
+    --font-weight-normal: 400;
+    --font-weight-light: 300;
+}
